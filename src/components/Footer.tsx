@@ -69,8 +69,8 @@ function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-2 sm:gap-6 pt-3 sm:pt-10 border-t border-black/10 text-[9px] sm:text-xs font-medium text-black/60 shrink-0 pb-2 sm:pb-0">
           <div className="flex flex-wrap justify-center items-center gap-3 sm:gap-6">
             <span className="hidden sm:inline text-black font-semibold text-sm">Follow us–</span>
-            <a href="#" className="hover:text-black transition-colors">Facebook</a>
-            <a href="#" className="hover:text-black transition-colors">LinkedIn</a>
+            <a href="https://github.com/himanm" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">GitHub</a>
+            <a href="https://linkedin.com/in/himanm" target="_blank" rel="noopener noreferrer" className="hover:text-black transition-colors">LinkedIn</a>
             <a href="#" className="hover:text-black transition-colors">Twitter</a>
           </div>
           
