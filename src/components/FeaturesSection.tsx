@@ -4,29 +4,29 @@ import { fadeInUp, staggerContainer, floatingAnim } from '../utils/animations';
 
 function FeaturesSection() {
   return (
-    <section id="features" className="bg-primary-black h-[100dvh] snap-start shrink-0 px-[5%] flex flex-col justify-center overflow-hidden py-6 sm:py-10 lg:py-0">
+    <section id="features" className="bg-primary-black h-[100dvh] snap-start shrink-0 px-[5%] flex flex-col justify-center overflow-hidden py-4 sm:py-8">
       <motion.div
         variants={staggerContainer}
         initial="hidden"
         whileInView="visible"
-        viewport={{ once: false, margin: "-100px" }}
-        className="max-w-7xl w-full mx-auto flex flex-col items-center h-full max-h-full lg:h-auto lg:max-h-none"
+        viewport={{ once: false }}
+        className="max-w-7xl w-full mx-auto flex flex-col items-center h-full min-h-0"
       >
-        <motion.span variants={fadeInUp} className="text-[9px] sm:text-[11px] uppercase tracking-[0.2em] text-white/50 mb-2 sm:mb-6 mt-2 sm:mt-0 shrink-0">
+        <motion.span variants={fadeInUp} className="text-[9px] sm:text-[11px] uppercase tracking-[0.2em] text-white/50 mb-1 sm:mb-4 mt-2 sm:mt-0 shrink-0">
           The future of workforce
         </motion.span>
 
-        <motion.h2 variants={fadeInUp} className="text-2xl sm:text-4xl md:text-5xl lg:text-[48px] text-center font-medium leading-[1.1] mb-2 sm:mb-6 shrink-0">
+        <motion.h2 variants={fadeInUp} className="text-2xl sm:text-4xl md:text-5xl lg:text-[42px] text-center font-medium leading-[1.1] mb-2 sm:mb-4 shrink-0">
           Introducing Aspect<br />
-          <span className="serif-italic text-3xl sm:text-5xl md:text-6xl lg:text-[56px]">Workforce OS</span>
+          <span className="serif-italic text-3xl sm:text-5xl md:text-6xl lg:text-[48px]">Workforce OS</span>
         </motion.h2>
 
-        <motion.p variants={fadeInUp} className="text-white/60 text-center max-w-[500px] leading-relaxed mb-4 sm:mb-12 text-[10px] sm:text-sm shrink-0">
+        <motion.p variants={fadeInUp} className="text-white/60 text-center max-w-[500px] leading-relaxed mb-4 sm:mb-8 text-[10px] sm:text-sm shrink-0">
           We're prepared to power a shift in employee management and engagement through a
           renewed focus on building innovative workforce technology.
         </motion.p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-6 w-full flex-1 lg:flex-none min-h-0 pr-2 lg:pr-0 pb-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-6 w-full flex-1 min-h-0 pb-2">
 
           {/* Left Column - Features Grid */}
           <motion.div variants={fadeInUp} className="relative overflow-hidden bg-secondary-green rounded-[24px] sm:rounded-[48px] p-2 sm:p-4 shrink-0 flex flex-col">

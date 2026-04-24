@@ -12,7 +12,7 @@ function PurposeSection() {
             <motion.h2 
               initial={{ y: "100%", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: false, margin: "-50px" }}
+              viewport={{ once: false }}
               transition={{ delay: 0.1, duration: 0.6, ease: "easeOut" }}
               className="text-2xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium leading-[1.1]"
             >
@@ -23,7 +23,7 @@ function PurposeSection() {
             <motion.h2 
               initial={{ y: "100%", opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
-              viewport={{ once: false, margin: "-50px" }}
+              viewport={{ once: false }}
               transition={{ delay: 0.2, duration: 0.6, ease: "easeOut" }}
               className="text-2xl sm:text-4xl md:text-5xl lg:text-[52px] font-medium leading-[1.1]"
             >
@@ -34,7 +34,7 @@ function PurposeSection() {
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: false, margin: "-50px" }}
+            viewport={{ once: false }}
             transition={{ delay: 0.4, duration: 0.6 }}
             className="text-white/60 text-center max-w-[500px] leading-relaxed mt-2 sm:mt-4 text-[10px] sm:text-[13px]"
           >
@@ -78,7 +78,7 @@ function PurposeSection() {
               key={i}
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: false, margin: "-50px" }}
+              viewport={{ once: false }}
               transition={{ delay: 0.5 + (i * 0.15), duration: 0.6 }}
               className="relative rounded-[16px] sm:rounded-[32px] overflow-hidden flex flex-col group p-2 sm:p-5 flex-1 min-h-0"
             >
