@@ -6,6 +6,11 @@
 
 This is a **vibe coded** landing page built with **Google Gemini** and **Google AI Studio**, taking inspiration from this [Dribbble design](https://dribbble.com/shots/27304934-Workspace-website-design).
 
+
+
+https://github.com/user-attachments/assets/3a241b5a-ae59-47a1-8e9c-2ec8b88905e0
+
+
 ## Frameworks & Technologies Used
 
 - **React** (v19) - Core UI library
